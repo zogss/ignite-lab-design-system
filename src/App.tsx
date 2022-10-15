@@ -1,8 +1,12 @@
-import React from "react";
-import './styles/global.css';
+import Routes from "./routes";
+import "./styles/global.css";
 
-const App: React.FC = () => {
-  return <h1 className="text-violet-500">Hello World!</h1>;
-};
+function App() {
+  return (
+    <div className="App">
+      <Routes />
+    </div>
+  );
+}
 
 export default App;
